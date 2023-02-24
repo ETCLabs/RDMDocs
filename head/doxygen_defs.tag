@@ -673,6 +673,34 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>RDM_VERSION_STRING</name>
+      <anchorfile>group__rdm.html</anchorfile>
+      <anchor>gaeca8102f07349e84dde5a0d1724166c3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RDM_VERSION_DATESTR</name>
+      <anchorfile>group__rdm.html</anchorfile>
+      <anchor>gaf606c3403a5c96ce846b61a2e686649b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RDM_VERSION_COPYRIGHT</name>
+      <anchorfile>group__rdm.html</anchorfile>
+      <anchor>ga0678d555524bb59bc84ad7f8a1f66c97</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RDM_VERSION_PRODUCTNAME</name>
+      <anchorfile>group__rdm.html</anchorfile>
+      <anchor>ga06f7ff193ba6623982758958dcb0a918</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>RDM_VERSION_MAJOR</name>
       <anchorfile>group__rdm.html</anchorfile>
       <anchor>gaff7817d7e723e0c9224c5a1402c73005</anchor>
@@ -697,6 +725,34 @@
       <name>RDM_VERSION_BUILD</name>
       <anchorfile>group__rdm.html</anchorfile>
       <anchor>gad253ce0c4574d2cbfefaabf507aab45c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RDM_VERSION_STRING</name>
+      <anchorfile>group__rdm.html</anchorfile>
+      <anchor>gaeca8102f07349e84dde5a0d1724166c3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RDM_VERSION_DATESTR</name>
+      <anchorfile>group__rdm.html</anchorfile>
+      <anchor>gaf606c3403a5c96ce846b61a2e686649b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RDM_VERSION_COPYRIGHT</name>
+      <anchorfile>group__rdm.html</anchorfile>
+      <anchor>ga0678d555524bb59bc84ad7f8a1f66c97</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RDM_VERSION_PRODUCTNAME</name>
+      <anchorfile>group__rdm.html</anchorfile>
+      <anchor>ga06f7ff193ba6623982758958dcb0a918</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1684,8 +1740,6 @@
     <name>rdm</name>
     <title>RDM</title>
     <filename>group__rdm.html</filename>
-    <subgroup>rdm_c</subgroup>
-    <subgroup>rdm_cpp</subgroup>
     <member kind="define">
       <type>#define</type>
       <name>RDM_VERSION_MAJOR</name>
@@ -1714,22 +1768,34 @@
       <anchor>gad253ce0c4574d2cbfefaabf507aab45c</anchor>
       <arglist></arglist>
     </member>
-  </compound>
-  <compound kind="group">
-    <name>rdm_c</name>
-    <title>Core API</title>
-    <filename>group__rdm__c.html</filename>
-    <subgroup>controller</subgroup>
-    <subgroup>message</subgroup>
-    <subgroup>responder</subgroup>
-    <subgroup>uid</subgroup>
-  </compound>
-  <compound kind="group">
-    <name>rdm_cpp</name>
-    <title>C++ API</title>
-    <filename>group__rdm__cpp.html</filename>
-    <subgroup>cpp_message</subgroup>
-    <subgroup>cpp_uid</subgroup>
+    <member kind="define">
+      <type>#define</type>
+      <name>RDM_VERSION_STRING</name>
+      <anchorfile>group__rdm.html</anchorfile>
+      <anchor>gaeca8102f07349e84dde5a0d1724166c3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RDM_VERSION_DATESTR</name>
+      <anchorfile>group__rdm.html</anchorfile>
+      <anchor>gaf606c3403a5c96ce846b61a2e686649b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RDM_VERSION_COPYRIGHT</name>
+      <anchorfile>group__rdm.html</anchorfile>
+      <anchor>ga0678d555524bb59bc84ad7f8a1f66c97</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>RDM_VERSION_PRODUCTNAME</name>
+      <anchorfile>group__rdm.html</anchorfile>
+      <anchor>ga06f7ff193ba6623982758958dcb0a918</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="group">
     <name>cpp_message</name>
